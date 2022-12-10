@@ -1,0 +1,51 @@
+html
+{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main
+{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 130px;
+}
+
+.details
+{
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom: 1px solid;
+    padding: 20px;
+    height: 5px;
+    width: 1100px;
+    line-height: 29px;
+    margin: 5px;
+}
+
+::placeholder
+{
+    color: white;
+}
+
+.radiobtn, .chkbx
+{
+    margin-top: 20px;
+    border-color: white;
+    background-color: black;
+    accent-color: black;
+}
+
+.submitbtn
+{
+    margin-top: 20px;
+    padding: 8px;
+    width: 120px;
+    background-color: white;
+    color: black;
+}
